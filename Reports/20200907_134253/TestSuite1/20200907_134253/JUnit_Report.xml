@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="61.816" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="2" failures="0" errors="0" time="61.816" timestamp="2020-09-07 13:42:57" hostname="gyanprakash2 - IN-GYANPRAKASH2.in.kworld.kpmg.com" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\gyanprakash2\\git\\KatalonGitTest\\Reports\\20200907_134253\\TestSuite1\\20200907_134253"/>
+         <property name="logFiles" value="C:\\Users\\gyanprakash2\\git\\KatalonGitTest\\Reports\\20200907_134253\\TestSuite1\\20200907_134253\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gyanprakash2 - IN-GYANPRAKASH2.in.kworld.kpmg.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 85.0.4183.83"/>
+         <property name="hostAddress" value="10.212.134.217"/>
+         <property name="sessionId" value="1804f1d630ed9e55d32b5b012637be54"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test1" time="43.839" classname="Test Cases/Test1" status="PASSED">
+         <system-out><![CDATA[2020-09-07 13:42:57 - [TEST_CASE][PASSED] - Test Cases/Test1: Test Cases/Test1
+
+2020-09-07 13:42:58 - [TEST_STEP][PASSED] - openBrowser("https://www.toolsqa.com/"): Browser is opened with url: 'https://www.toolsqa.com/'
+
+2020-09-07 13:42:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-07 13:42:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-07 13:43:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.toolsqa.com/'
+
+2020-09-07 13:43:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-07 13:43:31 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-07 13:43:31 - [TEST_STEP][PASSED] - click(findTestObject("ToolsQA_HomePage/span_Selenium Training")): Object: 'Object Repository/ToolsQA_HomePage/span_Selenium Training' is clicked on
+
+2020-09-07 13:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ToolsQA_HomePage/span_Selenium Training' is clicked on
+
+2020-09-07 13:43:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ToolsQA_SeleniumPage/strong_8 Modules"), "8 Modules"): Actual text and expected text of test object 'Object Repository/ToolsQA_SeleniumPage/strong_8 Modules' are matched.
+
+2020-09-07 13:43:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ToolsQA_SeleniumPage/strong_8 Modules' are matched.
+
+2020-09-07 13:43:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ToolsQA_SeleniumPage/strong_Live Project"), "Live Project"): Actual text and expected text of test object 'Object Repository/ToolsQA_SeleniumPage/strong_Live Project' are matched.
+
+2020-09-07 13:43:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ToolsQA_SeleniumPage/strong_Live Project' are matched.
+
+2020-09-07 13:43:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-07 13:43:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test2" time="16.978" classname="Test Cases/Test2" status="PASSED">
+         <system-out><![CDATA[2020-09-07 13:43:41 - [TEST_CASE][PASSED] - Test Cases/Test2: Test Cases/Test2
+
+2020-09-07 13:43:41 - [TEST_STEP][PASSED] - openBrowser("https://www.selenium.dev/"): Browser is opened with url: 'https://www.selenium.dev/'
+
+2020-09-07 13:43:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-07 13:43:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-07 13:43:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.selenium.dev/'
+
+2020-09-07 13:43:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-07 13:43:55 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-07 13:43:55 - [TEST_STEP][PASSED] - click(findTestObject("SeleniumPage_DownloadsLink/a_Downloads")): Object: 'Object Repository/SeleniumPage_DownloadsLink/a_Downloads' is clicked on
+
+2020-09-07 13:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/SeleniumPage_DownloadsLink/a_Downloads' is clicked on
+
+2020-09-07 13:43:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-07 13:43:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-07 13:42:57 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/Test2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

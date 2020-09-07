@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 85.0.4183.83,,,2020-09-07 13:58:56,2020-09-07 13:59:44,47.756s,PASSED
+,,,,,,,
+Test Cases/Test1,Chrome 85.0.4183.83,,,2020-09-07 13:58:57,2020-09-07 13:59:31,33.790s,PASSED
+"openBrowser(""https://www.toolsqa.com/"")",Chrome 85.0.4183.83,,,2020-09-07 13:58:58,2020-09-07 13:59:12,14.896s,PASSED
+maximizeWindow(),Chrome 85.0.4183.83,,,2020-09-07 13:59:12,2020-09-07 13:59:17,4.354s,PASSED
+"click(findTestObject(""ToolsQA_HomePage/span_Selenium Training""))",Chrome 85.0.4183.83,,,2020-09-07 13:59:17,2020-09-07 13:59:20,2.742s,PASSED
+"verifyElementText(findTestObject(""ToolsQA_SeleniumPage/strong_8 Modules""), ""8 Modules"")",Chrome 85.0.4183.83,,,2020-09-07 13:59:20,2020-09-07 13:59:29,9.702s,PASSED
+"verifyElementText(findTestObject(""ToolsQA_SeleniumPage/strong_Live Project""), ""Live Project"")",Chrome 85.0.4183.83,,,2020-09-07 13:59:29,2020-09-07 13:59:30,0.407s,PASSED
+closeBrowser(),Chrome 85.0.4183.83,,,2020-09-07 13:59:30,2020-09-07 13:59:31,1.103s,PASSED
+,,,,,,,
+Test Cases/Test2,Chrome 85.0.4183.83,,,2020-09-07 13:59:31,2020-09-07 13:59:44,13.439s,PASSED
+"openBrowser(""https://www.selenium.dev/"")",Chrome 85.0.4183.83,,,2020-09-07 13:59:31,2020-09-07 13:59:40,8.936s,PASSED
+maximizeWindow(),Chrome 85.0.4183.83,,,2020-09-07 13:59:40,2020-09-07 13:59:41,1.271s,PASSED
+"click(findTestObject(""SeleniumPage_DownloadsLink/a_Downloads""))",Chrome 85.0.4183.83,,,2020-09-07 13:59:41,2020-09-07 13:59:43,1.260s,PASSED
+closeBrowser(),Chrome 85.0.4183.83,,,2020-09-07 13:59:43,2020-09-07 13:59:44,1.587s,PASSED
